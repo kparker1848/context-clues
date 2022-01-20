@@ -1,18 +1,10 @@
 $(document).ready(function () {
 
-    var accButton = $("<button></button>");
-    accButton.addClass("acc-button");
-    accButton.text("Make Accusation!");
-    $(".btn-box").append(accButton);
+    var accButton = $("#accButton");
+    var allAccButton = $("#allAccButton");
 
     var accTextBox = $("<h3></h3>");
     accTextBox.addClass("make-acc-text");
-
-    var allAccButton = $("<button></button>");
-    allAccButton.addClass("acc-button");
-    allAccButton.text("Show all Accusations!");
-    $(".btn-box").append(allAccButton);
-
 
     accButton.click(makeAccusation);
 
