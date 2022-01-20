@@ -1,0 +1,49 @@
+body {
+    background: url("assets/images/background.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+}
+
+h3 {
+    font-family: 'Special Elite', cursive;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.title-box {
+    background-color:gold;
+    opacity: .8;
+}
+
+.acc-box {
+    background-color:dimgray;
+    opacity: .8;
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.swal-overlay {
+    background-color: rgba(42, 84, 61, 0.45);
+  }
+
+  .swal-title {
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .swal-text {
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .swal-button {
+    font-family: 'Special Elite', cursive;
+    background-color:darkslategray;
+  }
